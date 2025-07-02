@@ -62,15 +62,7 @@ const FAQ = () => {
                 className="border rounded-lg px-4"
               >
                 <AccordionTrigger className="text-left hover:no-underline py-4">
-                  <div className="flex items-center gap-3">
-                    <Icon
-                      name="HelpCircle"
-                      fallback="CircleAlert"
-                      size={20}
-                      className="text-orange-500 flex-shrink-0"
-                    />
-                    <span className="font-medium">{item.question}</span>
-                  </div>
+                  <span className="font-medium">{item.question}</span>
                 </AccordionTrigger>
                 <AccordionContent className="pb-4 pl-8 text-gray-600 leading-relaxed">
                   {item.answer}
