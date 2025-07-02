@@ -85,12 +85,8 @@ const Hero = () => {
           </div>
 
           <div className="relative">
-            <div className="bg-gradient-to-br from-orange-100 to-orange-50 rounded-2xl p-8 shadow-lg">
-              <img
-                src="https://cdn.poehali.dev/files/3a79389b-7d84-4911-8819-7307bfa65499.png"
-                alt="Калькулятор тарифов"
-                className="w-full rounded-lg shadow-md"
-              />
+            <div className="bg-gradient-to-br from-orange-100 to-orange-50 rounded-2xl p-12 shadow-lg flex items-center justify-center">
+              <Icon name="Smartphone" size={120} className="text-orange-500" />
             </div>
           </div>
         </div>
