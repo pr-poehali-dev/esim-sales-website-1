@@ -65,6 +65,7 @@ const FAQ = () => {
                   <div className="flex items-center gap-3">
                     <Icon
                       name="HelpCircle"
+                      fallback="CircleAlert"
                       size={20}
                       className="text-orange-500 flex-shrink-0"
                     />
